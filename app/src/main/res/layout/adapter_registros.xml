@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textColor="@color/black"
+        android:background="@drawable/table"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/mascota"
+        android:layout_width="wrap_content"
+        android:background="@drawable/table"
+        android:layout_height="30dp"
+        android:textColor="@color/black"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/vacuna"
+        android:layout_width="wrap_content"
+        android:background="@drawable/table"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textAlignment="center">
+    </TextView>
+
+
+</LinearLayout>
